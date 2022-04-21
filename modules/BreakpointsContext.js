@@ -1,9 +1,6 @@
 import React from 'react'
-import createReactContext from 'create-react-context'
 
-const BreakpointsContext = React.createContext
-  ? React.createContext()
-  : createReactContext()
+const BreakpointsContext = React.createContext()
 
 const { Provider, Consumer } = BreakpointsContext
 
